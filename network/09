@@ -1,0 +1,4 @@
+#nslookup 42.fr | grep Address | awk 'FNR > 1'
+
+Address: 163.172.250.12
+Address: 163.172.250.13

@@ -1,0 +1,2 @@
+pgrep tail | xargs kill
+pkill tail

@@ -1,0 +1,2 @@
+ifconfig en0 | awk /broadcast/'{print $6}'
+arp -a | awk '{print $2}' | cut -c 2- | rev | cut -c 2- | rev

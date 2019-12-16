@@ -1,0 +1,6 @@
+#temporary
+hostname NEWNAME
+
+#permanent
+sudo vi /etc/hostname
+sudo vi/etc/hosts
